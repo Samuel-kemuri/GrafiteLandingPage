@@ -1,3 +1,7 @@
+body{
+    background-color: #fff;
+}
+
 /* TELA 1 */
 
 #tela1 .container{
@@ -6,6 +10,10 @@
     margin-right: 200px;
     display: flex;
     justify-content: space-between;
+}
+
+#tela1 .container .sobre-grafite{
+    text-align: center;
 }
 
 #tela1 .container .sobre-grafite h2{
@@ -44,6 +52,10 @@
     margin-left: 200px;
 }
 
+#tela2 .container .quemsou {
+    text-align: center;
+}
+
 #tela2 .container .quemsou h2{
     padding-top: 200px;
     padding-bottom: 16px;
@@ -68,3 +80,86 @@
 }
 
 /* Tela 2 Fim */
+
+/* Tela 3 */
+
+#tela3 .container{
+    display: block;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    margin: 0 200px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#tela3 .container .contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tela3 .container h2 {
+    margin-bottom: 35px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+height: 180px;
+}
+
+#tela3 .container .contact-methods h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: black;
+    color: #ecf0f1;
+    width: 340px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #545557;
+}
+
+input:focus, textarea:focus{
+    outline-color: black;
+}
+
+.contact-methods .area-social-midia li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.social-links-icon{
+    font-size: 20px;
+}
+
+.contact-methods .area-social-midia a {
+    text-decoration: none;
+    color: black;
+}
+
+#tela3 hr {
+    margin: 70px 60px 0 60px;
+    background-color: black;
+
+}
+
+/* FIM TELA 3 */
+
+footer {
+    background-color: #fff;
+    color: black;
+    padding: 16px 0;
+    text-align: center;
+}
