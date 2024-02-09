@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/src/Style/header.css">
 
     <link rel="stylesheet" href="/src/Style/main.css">
+    <link rel="stylesheet" href="/src/Style/carrossel.css">
+    <script src="/src/Script/carrossel.js"></script>
 
     <script src="https://kit.fontawesome.com/c38acbb2bf.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +53,47 @@
     <main>
         <section id="tela1">
             <div class="container">
-                <img src="/Imagens/grafite 1.jpg" alt="">
+
+                <div class="slider">
+                    <div class="sliders">
+                        <!-- Radio buttons -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!-- Fim Radio buttons -->
+            
+                        <!--Slide de imagens-->
+                        <div class="slide first">
+                            <img src="/Imagens/grafite 1.jpg" alt="grafite na parede">
+                        </div>
+                        <div class="slide">
+                            <img src="/Imagens/grafite 2.jpg" alt="grafitr na parede">
+                        </div>
+                        <div class="slide">
+                            <img src="/Imagens/grafite 3.jpg" alt="grafite na parede">
+                        </div>
+                        <div class="slide">
+                            <img src="/Imagens/grafite 4.jpg" alt="grafite na parede">
+                        </div>
+                        <!--Fim slide de imagens-->
+            
+                        <!--Navigation auto-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+            
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
 
                 <div class="sobre-grafite">
 
@@ -62,7 +104,7 @@
                     <p>Os grafiteiros expressam narrativas da cidade, questões diversas que atravessam a realidade social, propondo críticas e reflexões por meio das formas, cores e traços nos muros. Junto a outras expressões artísticas, o grafite faz parte da cultura popular do hip hop, que traduz as vivências da rua por meio da arte.</p>
                 </div>
             </div>
-            <hr>
+            <hr> 
         </section>
         
         <section id="tela2">
